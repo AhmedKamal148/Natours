@@ -1,0 +1,40 @@
+/* -------------------------------------------------------------------------- */
+/*                                 Animations                                 */
+/* -------------------------------------------------------------------------- */
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translateX(10rem);
+
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+
+    opacity: 1;
+  }
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(2rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0rem);
+  }
+}

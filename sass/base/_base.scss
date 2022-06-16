@@ -1,0 +1,29 @@
+/* -------------------------------------------------------------------------- */
+/*                                  start => Global                           */
+/* -------------------------------------------------------------------------- */
+
+/*
+ === > I put after & before with * cause they haven't this values from padding and margin
+ === > I put box sizing inherit because not all of elemnt's inherit this value
+*/
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   End => Global                            */
+/* -------------------------------------------------------------------------- */
